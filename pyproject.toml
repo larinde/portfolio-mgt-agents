@@ -1,0 +1,17 @@
+[project]
+name = "portfolio-mgt-agents"
+version = "0.1.0"
+description = "An agentic workflow for monitoring and managing portfolios"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi[standard]>=0.115.6",
+    "langchain-openai>=0.2.14",
+    "langchain>=0.3.13",
+    "python-dotenv>=1.0.1",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=8.3.4",
+]
