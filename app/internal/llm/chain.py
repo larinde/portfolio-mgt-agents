@@ -2,6 +2,12 @@ from langchain_core.messages import HumanMessage
 
 from .prompt import get_prompt
 
+import logging
+
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
+
+
 def invoke_chain(message: HumanMessage):
     """
     Invoke the chain.
@@ -12,7 +18,8 @@ def invoke_chain(message: HumanMessage):
     Returns:
         str: The response from the chain.
     """
-    from .model import model
+    from .model import llmModel
     
     prompt = get_prompt(message)
-    return model.invoke(prompt)
+    logger.info(f" --- Invoking chain with prompt: {prompt}")
+    return llmModel.invoke(prompt)

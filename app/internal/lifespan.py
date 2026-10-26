@@ -5,6 +5,10 @@ from fastapi import FastAPI
 
 from .llm.model import init_model
 
+import logging
+
+logger = logging.getLogger(__name__)
+
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     # Load environment variables from .env file
@@ -15,6 +19,7 @@ async def lifespan(app: FastAPI):
         raise ValueError("OPENAI_API_KEY is not set")
     
     # Initialize the model
+    logger.info("Initialising the model...")
     init_model()
 
     yield

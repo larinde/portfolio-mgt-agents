@@ -6,10 +6,12 @@ from app.internal import invoke_chain
 router = APIRouter()
 
 logger = logging.getLogger(__name__)
+logging.basicConfig(level=logging.INFO)
 
 @router.post("/")
 async def chat(request: ChatRequest):
     """Chat endpoint to send a message to the LLM."""
+    logger.info(f" --- Received chat request: {request.message}")
     langchain_message = request.to_message().to_langchain()
     try:
         response = invoke_chain(langchain_message)

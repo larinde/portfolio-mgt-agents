@@ -1,0 +1,119 @@
+[
+  {
+    "symbol": "GOOGL",
+    "name": "Alphabet Inc Class A",
+    "quantity": 50,
+    "price": 320.09,
+    "currency": "USD",
+    "book_cost": 11180.84,
+    "average_price": 223.6168
+  },
+  {
+    "symbol": "AMZN",
+    "name": "Amazon.com Inc",
+    "quantity": 50,
+    "price": 249.51,
+    "currency": "USD",
+    "book_cost": 10160.89,
+    "average_price": 203.2178
+  },
+  {
+    "symbol": "AMAT",
+    "name": "Applied Materials Inc",
+    "quantity": 90,
+    "price": 391.35,
+    "currency": "USD",
+    "book_cost": 12583.57,
+    "average_price": 139.817444
+  },
+  {
+    "symbol": "CRSP",
+    "name": "CRISPR Therapeutics AG",
+    "quantity": 150,
+    "price": 49.41,
+    "currency": "USD",
+    "book_cost": 7714.34,
+    "average_price": 51.428933
+  },
+  {
+    "symbol": "AG",
+    "name": "First Majestic Silver Corp",
+    "quantity": 10,
+    "price": 14.96,
+    "currency": "USD",
+    "book_cost": 221.23,
+    "average_price": 22.123
+  },
+  {
+    "symbol": "GAZPROM",
+    "name": "GAZPROM PJSC SPON ADR EA REP 2 ORD SHS",
+    "quantity": 510,
+    "price": 0.0,
+    "currency": "GBP",
+    "book_cost": 3811.43,
+    "average_price": 7.473392
+  },
+  {
+    "symbol": "NTLA",
+    "name": "Intellia Therapeutics Inc",
+    "quantity": 2211,
+    "price": 11.26,
+    "currency": "USD",
+    "book_cost": 31754.77,
+    "average_price": 14.362175
+  },
+  {
+    "symbol": "LRCX",
+    "name": "Lam Research Corp",
+    "quantity": 40,
+    "price": 240.39,
+    "currency": "USD",
+    "book_cost": 2999.1,
+    "average_price": 74.9775
+  },
+  {
+    "symbol": "MSFT",
+    "name": "Microsoft Corp",
+    "quantity": 10,
+    "price": 530.9,
+    "currency": "USD",
+    "book_cost": 2803.37,
+    "average_price": 280.337
+  },
+  {
+    "symbol": "NU",
+    "name": "Nu Holdings Ltd Ordinary Shares Class A",
+    "quantity": 100,
+    "price": 12.33,
+    "currency": "USD",
+    "book_cost": 860.58,
+    "average_price": 8.6058
+  },
+  {
+    "symbol": "PRME",
+    "name": "Prime Medicine Inc",
+    "quantity": 570,
+    "price": 3.6,
+    "currency": "USD",
+    "book_cost": 1689.38,
+    "average_price": 2.963825
+  },
+  {
+    "symbol": "QS",
+    "name": "QuantumScape Corp Ordinary Shares - Class A",
+    "quantity": 197,
+    "price": 3.96,
+    "currency": "USD",
+    "book_cost": 1676.33,
+    "average_price": 8.509289
+  },
+  {
+    "symbol": "SCTX",
+    "name": "Scribe Therapeutics Inc",
+    "quantity": 125,
+    "price": 15.6,
+    "currency": "USD",
+    "book_cost": 1955.36,
+    "average_price": 15.64288
+  }
+]

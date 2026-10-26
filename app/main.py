@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from .routers import chat_router
+from .routers import chat_router, portfolio_router
 from .internal import lifespan
 
 app = FastAPI(
@@ -10,7 +10,8 @@ app = FastAPI(
 )
 
 # Include extra routers
-app.include_router(chat_router, prefix="/chat")
+app.include_router(chat_router, prefix="/portfolio/chat")
+app.include_router(portfolio_router, prefix="/portfolio/accounts")
 
 # Set up healthcheck endpoint
 @app.get("/")
